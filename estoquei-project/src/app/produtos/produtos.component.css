@@ -1,3 +1,12 @@
+h1
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 8px 0;
+}
+
 .content {
     display: flex;
     margin: 82px 40px;
@@ -218,4 +227,18 @@ svg#clouds {
         display: none;
         visibility: hidden;
     }
+}
+
+th {
+    text-align: left;
+    color: #4679bd;
+}
+
+tbody>tr:nth-of-type(even) {
+    background-color: #daeaff;
+}
+
+button {
+    cursor: pointer;
+    margin-top: 1rem;
 }
